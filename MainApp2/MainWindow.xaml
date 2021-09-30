@@ -1,0 +1,35 @@
+﻿<Window x:Class="MainApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApp2"
+        mc:Ignorable="d"
+        Title="Практическая 2 Ермолаев" Height="450" Width="800" ShowInTaskbar="False" Icon="Tao_de_Libertad_tick.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="413*"/>
+            <ColumnDefinition Width="381*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="Tablitsa" HorizontalAlignment="Left" Height="237" Margin="10,30,0,0" VerticalAlignment="Top" Width="550" Grid.ColumnSpan="2" />
+        <Menu HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="792">
+            <MenuItem ToolTip="меню программы" Header="Программа" VerticalAlignment="Top" HorizontalAlignment="Left" Width="81" Height="26">
+                <MenuItem Header="Сохранить" Name="save" Click="save_Click"/>
+                <MenuItem Header="Открыть" Name="open" Click="open_Click"/>
+                <MenuItem x:Name="info" Header="О программе" ToolTip="имя студента и задание" Click="info_Click" />
+                <MenuItem x:Name="exit" Header="Выйти" ToolTip="выйти и закрыть программу" Click="exit_Click"/>
+                
+            </MenuItem>
+        </Menu>
+        <Button x:Name="Clear" Content="Очистить" HorizontalAlignment="Left" Margin="10,278,0,0" VerticalAlignment="Top" Width="75" Click="Clear_Click" Height="27"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="Rasch" Content="Расчитать" HorizontalAlignment="Left" Margin="110,278,0,0" VerticalAlignment="Top" Width="74" Click="Rasch_Click" Height="27"/>
+        <TextBox IsReadOnly="True" x:Name="Rez" HorizontalAlignment="Left" Height="23" Margin="10,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="317,284,0,0" TextWrapping="Wrap" Text="Максимальное число" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Diap" HorizontalAlignment="Left" Height="23" Margin="317,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="Diap_PreviewTextInput" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="317,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"><Run Text="Количеств"/><Run Text="о"/><Run Text=" ячеек"/></TextBlock>
+        <TextBox x:Name="Yach" HorizontalAlignment="Left" Height="23" Margin="317,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="Yach_PreviewTextInput" Grid.ColumnSpan="2"/>
+        <Button x:Name="Go" Content="Заполнить" HorizontalAlignment="Left" Margin="70,330,0,0" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.644,0.943" Height="29" Click="Go_Click_1" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,323,0,0" TextWrapping="Wrap" Text="произведение" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
