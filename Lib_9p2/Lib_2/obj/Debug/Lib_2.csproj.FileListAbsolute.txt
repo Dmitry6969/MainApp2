@@ -1,0 +1,12 @@
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\bin\Debug\Lib_2.dll
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\bin\Debug\Lib_2.pdb
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.csproj.AssemblyReference.cache
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.csproj.CoreCompileInputs.cache
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.dll
+C:\Users\исп-31\Desktop\парктосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.pdb
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\bin\Debug\Lib_2.dll
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\bin\Debug\Lib_2.pdb
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.csproj.AssemblyReference.cache
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.csproj.CoreCompileInputs.cache
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.dll
+C:\Users\DimaS\Desktop\учеба\Практосы\PR2 Ермолаев\Lib_2\Lib_2\obj\Debug\Lib_2.pdb
